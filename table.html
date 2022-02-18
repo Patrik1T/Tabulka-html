@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jednoduchá tabulka</title>
+    <style>
+        table {
+        width: 60%;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        .flag {
+        height: 20px;
+        }
+        td, th{
+         padding: 5px;
+        }
+        .center {
+         text-align:center;
+        }
+        .right{
+      text-align: right;
+    }
+        .bold{
+    font-weight: bold;
+        }
+        .gold {
+background-color: gold;
+        }
+        .silver{
+background-color: silver;
+        }
+        .bronz{
+background-color: #cd7f32;
+        }
+        caption{
+            font-size: 30px;
+            padding: 20px;
+        }
+        .cyan{
+            background-color: cyan;
+        }
+        .blue{
+            background-color: rgb(72, 188, 255);
+        }
+        h1{
+            font-size: 60px;
+            padding: 20px;
+        }
+        .gray{
+            background-color: gray;
+        }
+        .v{
+            height: 30px;
+        }
+        .t{
+            height: 60px;
+        }
+    </style>
+</head>
+<body class="center">
+    <h1 class="center"><img src="tabule.png"  class="t">Jednoduchá tabulka v HTML<img src="tabule.png"  class="t"></h1>
+    <table>
+        <caption><img src="lyzar.png"  class="v">Sjezd mužů - pořadí<img src="4PQw1.webp" class="v"></caption>
+     <thead class="center">
+<tr class="cyan">
+<th>Umístění</th>
+<th>Jméno</th>
+<th>Stát</th>
+<th>Čas</th>
+<th></th>
+</tr>
+
+     </thead>
+     <tbody class="center">
+        <tr class="center">
+            <td class="gold"><img src="jedna.jpg" class="flag">1.</td>
+            <td class="bold">Feuz</td>
+            <td class="bold"><img src="SUI.png" alt="Vlajka Švýcarska" class="flag">SUI</td>
+            <td class="right">1:42.69<img src="stopky.jpg" class="flag"></td>
+        </tr>
+        <tr class="center"> 
+            <td class="silver"><img src="dva.jpg" class="flag">2.</td>
+            <td class="bold">Clarey</td>
+            <td class="bold"><img src="FRA.png" alt="Vlajka Francie" class="flag">FRA</td>
+            <td class="right">1:42.7<img src="stopky.jpg" class="flag"></td>
+        </tr>
+        <tr class="center">
+            <td class="bronz"><img src="tri.jpg" class="flag">3.</td>
+            <td class="bold">Mayer</td>
+            <td class="bold"><img src="AUT.png" alt="Vlajka Rakouska" class="flag">AUT</td>
+            <td class="right">1:42:87<img src="stopky.jpg" class="flag"></td>
+        </tr>
+        <tr class="center">
+            <td class="gray">4.</td>
+            <td class="bold">Crawford</td>
+            <td class="bold"><img src="Flag_of_Canada.svg.webp" alt="Vlajka Kanady" class="flag">CAN</td>
+            <td class="right">1:42,92<img src="stopky.jpg" class="flag"></td>
+        </tr>
+        <tr class="center">
+            <td class="gray">5.</td>
+            <td class="bold">Kilde</td>
+            <td class="bold"><img src="Flag_of_Norway.svg.webp" alt="Vlajka Norska" class="flag">NOR</td>
+            <td class="right">1:43,20<img src="stopky.jpg" class="flag"></td>
+        </tr>
+        <tr class="center">
+            <td class="gray">6.</td>
+            <td class="bold">Paris</td>
+            <td class="bold"><img src="22px-Flag_of_Italy.svg.webp" alt="Vlajka Itálie" class="flag">ITA</td>
+            <td class="right">1:43,21<img src="stopky.jpg" class="flag"></td>
+        </tr>
+     </tbody>
+     <tfoot>
+         <tr class="blue">
+             <td colspan="4" class="center"><img src="4PQw1.webp" class="flag">Zimní olympijské hry Peking 2022<img src="4PQw1.webp" class="flag"></td>
+         </tr>
+     </tfoot>
+    </table>
+    <img src="hry.jpg">
+</body>
+</html>
